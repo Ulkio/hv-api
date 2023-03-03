@@ -15,6 +15,33 @@ const classId = [
   new mongoose.Types.ObjectId(),
   new mongoose.Types.ObjectId(),
   new mongoose.Types.ObjectId(),
+  new mongoose.Types.ObjectId(),
+];
+export const classes = [
+  {
+    _id: classId[0],
+    name: "Unknown",
+  },
+  {
+    _id: classId[1],
+    name: "Lunar",
+  },
+  {
+    _id: classId[2],
+    name: "Solar",
+  },
+  {
+    _id: classId[3],
+    name: "Aquatic",
+  },
+  {
+    _id: classId[4],
+    name: "Terrestrial",
+  },
+  {
+    _id: classId[5],
+    name: "Adjective",
+  },
 ];
 
 export const glyphs = [
@@ -1650,32 +1677,5 @@ export const glyphs = [
     info: "",
     noTranslation: false,
     example: "Valar Ēdrussis.",
-  },
-];
-
-export const classes = [
-  {
-    _id: classId[0],
-    name: "Unknown",
-  },
-  {
-    _id: classId[1],
-    name: "Lunar",
-  },
-  {
-    _id: classId[2],
-    name: "Solar",
-  },
-  {
-    _id: classId[3],
-    name: "Aquatic",
-  },
-  {
-    _id: classId[4],
-    name: "Terrestrial",
-  },
-  {
-    _id: classId[5],
-    name: "Adjective",
   },
 ];
